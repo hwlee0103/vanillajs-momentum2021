@@ -4,4 +4,11 @@ vanillajs-momentum2021
 
 - Learning Vanilla JS
 
-* NomadCoders
+=======================
+First Part
+
+1. Data Type
+   ; integer, float,
+   ; text: "hello"
+   ; string: "my name is hw"
+   -> both are text

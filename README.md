@@ -12,3 +12,11 @@ First Part
    ; text: "hello"
    ; string: "my name is hw"
    -> both are text
+
+2. using console.log()
+   : to send value to console
+
+3. variables
+   : save & hold values
+   ; const value : constant - stay as it is.
+   ; camel case : convension for js variable naming

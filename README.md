@@ -20,3 +20,5 @@ First Part
    : save & hold values
    ; const value : constant - stay as it is.
    ; camel case : convension for js variable naming
+   ; let value: can be changed.
+   ; var: do not use.. it doesn't show error when code changed value that should not changed

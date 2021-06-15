@@ -22,3 +22,8 @@ First Part
    ; camel case : convension for js variable naming
    ; let value: can be changed.
    ; var: do not use.. it doesn't show error when code changed value that should not changed
+
+4. Booleans
+   :true or false
+   ; null: nothingness; diff with false
+   ; undefined: not defined

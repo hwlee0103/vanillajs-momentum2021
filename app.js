@@ -17,3 +17,11 @@ console.log("hello " + myName);
 
 myName = "melody";
 console.log("your new name is " + myName);
+
+//boolean
+const amIFat = true;
+console.log(amIFat);
+
+const kcal = null;
+const notdefined;
+console.log(notdefined);

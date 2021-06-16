@@ -27,3 +27,10 @@ First Part
    :true or false
    ; null: nothingness; diff with false
    ; undefined: not defined
+
+5. Array
+   : list of data
+   ; using "[]"
+   ; can reach to each element by index or value
+   ; get item from array: array[index]
+   ; add item to array: array.push(item);

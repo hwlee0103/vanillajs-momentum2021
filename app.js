@@ -51,3 +51,35 @@ daysOfWeekArr.push("sun");
 const toBuy = ["potato", "tomato", "pizza"];
 //undefined: out of index range
 console.log(toBuy[1239123]);
+
+//objects
+//variable
+const playerName = "nico";
+const playerPoints = 121212;
+const playerHandsome = false;
+const playerFat = "little bit";
+
+//array
+const player=["nico", 1212, false, "little bit"];
+
+//object
+const player = {
+    //player 내부이므로 playerName과 같이 쓸 필요 없음.
+    name: "nico",
+    points: 10,
+    fat: true,
+    //diff data type could be saved
+};
+console.log(player);
+//getting value
+console.log(player.name);
+console.log(player["name"]);
+
+console.log(player);
+//update
+player.fat = false;
+//append
+player.lastName = "potato";
+player.points = player.points + 15;
+
+console.log(player);

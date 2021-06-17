@@ -34,3 +34,6 @@ First Part
    ; can reach to each element by index or value
    ; get item from array: array[index]
    ; add item to array: array.push(item);
+
+6. Object
+   : better way to organize data; when an entity has many properties

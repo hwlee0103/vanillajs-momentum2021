@@ -37,3 +37,6 @@ First Part
 
 6. Object
    : better way to organize data; when an entity has many properties
+
+7. function
+   : with argument

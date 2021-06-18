@@ -83,3 +83,14 @@ player.lastName = "potato";
 player.points = player.points + 15;
 
 console.log(player);
+
+//function
+function sayHello(){
+    console.log("Hello my name is ");
+}
+
+//alert("This page says?");
+sayHello("nico");
+sayHello();
+sayHello();
+sayHello();

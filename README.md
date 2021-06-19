@@ -39,4 +39,6 @@ First Part
    : better way to organize data; when an entity has many properties
 
 7. function
-   : with argument
+   : with/without arguments
+   ; how to recieve argument
+   ; function inside of object also can recieve outer data

@@ -35,11 +35,19 @@ First Part
    ; get item from array: array[index]
    ; add item to array: array.push(item);
    ; any valid datatype could be element of array
+   ; elements are same type
+   ex) list = ["mon", "tue", "wed" , ...]
 
 6. Object
    : better way to organize data; when an entity has many properties
+   ; get item from object
+   ; and update item from object
+   ; add property to object
 
 7. function
-   : with/without arguments
-   ; how to recieve argument
+   : with/without arguments (data)
+   ; how to recieve arguments (data)
    ; function inside of object also can recieve outer data
+   ; encapsulate code and could be used over and over again
+
+- try code challenge : make calculator

@@ -20,12 +20,12 @@ First Part
    : save & hold values
    ; const value : constant - stay as it is.
    ; camel case : convension for js variable naming
-   ; let value: can be changed.
+   ; let value: can be changed. (or updated)
    ; var: do not use.. it doesn't show error when code changed value that should not changed
 
 4. Booleans
-   :true or false
-   ; null: nothingness; diff with false
+   : true or false / 0 or 1
+   ; null: nothingness; diff with false - there is nothing
    ; undefined: not defined
 
 5. Array
@@ -34,6 +34,7 @@ First Part
    ; can reach to each element by index or value
    ; get item from array: array[index]
    ; add item to array: array.push(item);
+   ; any valid datatype could be element of array
 
 6. Object
    : better way to organize data; when an entity has many properties

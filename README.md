@@ -51,3 +51,7 @@ First Part
    ; encapsulate code and could be used over and over again
 
 - try code challenge : make calculator
+
+8. Return
+   : to get actual data instead of print it on console (console.log)
+   ;

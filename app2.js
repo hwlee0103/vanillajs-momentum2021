@@ -42,7 +42,10 @@ minusFive(10, 10, 12, 34, 4, 5, 6, 7);
 const calculator = {
   add: function (a, b) {
     //onsole.log(a, b);
+    console.log("hello");
     return a + b;
+    //won't work
+    console.log("bye");
   },
   minus: function (a, b) {
     return a - b;

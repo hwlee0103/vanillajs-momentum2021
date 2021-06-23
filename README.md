@@ -54,4 +54,4 @@ First Part
 
 8. Return
    : to get actual data instead of print it on console (console.log)
-   ;
+   ; console.log - show result on console

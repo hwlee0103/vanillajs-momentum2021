@@ -55,3 +55,11 @@ First Part
 8. Return
    : to get actual data instead of print it on console (console.log)
    ; console.log - show result on console
+
+9. Conditionals
+   : if-else
+   ; check if a condition is true or false
+
+10. paresInt()
+    : change str to number
+    ; input string is not a number, "NaN"

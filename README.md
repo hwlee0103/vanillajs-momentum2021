@@ -59,6 +59,7 @@ First Part
 9. Conditionals
    : if-else
    ; check if a condition is true or false
+   (only true or false)
 
 10. paresInt()
     : change str to number

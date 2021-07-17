@@ -60,6 +60,7 @@ First Part
    : if-else
    ; check if a condition is true or false
    (only true or false)
+   ; else if - more than one condition
 
 10. paresInt()
     : change str to number

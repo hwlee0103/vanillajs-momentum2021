@@ -65,3 +65,23 @@ First Part
 10. paresInt()
     : change str to number
     ; input string is not a number, "NaN"
+
+11. getElementById
+    : how to get element from html to use on js
+    ; html's id should be same as id using in js to find
+
+12. getElementsByClassName
+    : get element by class
+    ; should know because use class more than ids
+
+13. getElementsByTagName
+    : getting elements by tag names
+    ; for the case class name is used by some tags and want to get one tag
+
+14. querySelector
+    : find elements by using css notation
+    ; useful getting element
+    ; only bring first element it found
+
+15. querySelectorAll
+    : get all element that match selector

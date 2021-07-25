@@ -1,8 +1,9 @@
 //document.title = "Hello! From JS!";
 
-const title = document.getElementById("#title");
+const title = document.getElementById("title");
 
 console.dir(title);
+console.log(title);
 
 title.innerText = "Got you!";
 
@@ -27,3 +28,15 @@ console.log(title3);
 const one = document.querySelector("#hello");
 const two = document.getElementById("hello");
 //one and two are same
+
+const title4 = document.querySelector("div.hello:first-child h1");
+console.log(title4);
+
+title4.style.color = "blue";
+
+function handleTitleClick() {
+  console.log("title was clicked!");
+  title4.innerHTML = "Title Clicked!";
+}
+
+title4.addEventListener("click", handleTitleClick);

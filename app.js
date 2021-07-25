@@ -39,4 +39,5 @@ function handleTitleClick() {
   title4.innerHTML = "Title Clicked!";
 }
 
+//do not add () to end of function name if only function acts at events
 title4.addEventListener("click", handleTitleClick);

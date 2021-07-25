@@ -85,3 +85,6 @@ First Part
 
 15. querySelectorAll
     : get all element that match selector
+
+16. addEventListener
+    : to add events on elements

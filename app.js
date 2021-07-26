@@ -39,5 +39,15 @@ function handleTitleClick() {
   title4.innerHTML = "Title Clicked!";
 }
 
+function handleMouseEnter() {
+  console.log("mouse is here!");
+}
+
+function handleMouseLeave() {
+  title4.innerText = "Mouse is gone!";
+}
+
 //do not add () to end of function name if only function acts at events
 title4.addEventListener("click", handleTitleClick);
+title4.addEventListener("mouseenter", handleMouseEnter);
+title4.addEventListener("mouseleave", handleMouseLeave);

@@ -88,3 +88,7 @@ First Part
 
 16. addEventListener
     : to add events on elements
+
+17. google MDN for js/html elements
+    OR use console.dir to find elements(and properties)
+    : ex) for onclick event: should add 'click' event

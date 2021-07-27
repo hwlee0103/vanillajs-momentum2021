@@ -47,7 +47,31 @@ function handleMouseLeave() {
   title4.innerText = "Mouse is gone!";
 }
 
+function handleWindowResize() {
+  document.body.style.backgroundColor = "tomato";
+}
+
+function handleWindowCopy() {
+  alert("copier!");
+}
+
+function handleWindowOffline() {
+  alert("SOS no WIFI");
+}
+
+function handleWindowOnline() {
+  alert("ALL GOOD");
+}
 //do not add () to end of function name if only function acts at events
 title4.addEventListener("click", handleTitleClick);
-title4.addEventListener("mouseenter", handleMouseEnter);
+//title4.addEventListener("mouseenter", handleMouseEnter);
 title4.addEventListener("mouseleave", handleMouseLeave);
+//nico doesn't prefer this way
+title4.onmouseenter = handleMouseEnter;
+
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", handleWindowCopy); //when try to copy on window
+
+//when wifi - offline
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", handleWindowOnline);

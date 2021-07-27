@@ -92,3 +92,8 @@ First Part
 17. google MDN for js/html elements
     OR use console.dir to find elements(and properties)
     : ex) for onclick event: should add 'click' event
+
+18. sth.on~(func) or sth.addEventlistener("~", func);
+
+19. resize
+    : cannot resize h1, can resize window

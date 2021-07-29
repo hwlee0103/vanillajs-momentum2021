@@ -97,3 +97,6 @@ First Part
 
 19. resize
     : cannot resize h1, can resize window
+
+20. .className
+    : can use to update class name in js

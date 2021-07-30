@@ -100,3 +100,6 @@ First Part
 
 20. .className
     : can use to update class name in js
+
+21. toggle function
+    : check classlist and remove/add class

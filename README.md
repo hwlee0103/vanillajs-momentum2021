@@ -5,7 +5,7 @@ vanillajs-momentum2021
 - Learning Vanilla JS
 
 =======================
-First Part
+First Part - JSBasic
 
 1. Data Type
    ; integer, float,
@@ -103,3 +103,9 @@ First Part
 
 21. toggle function
     : check classlist and remove/add class
+
+==============================
+
+Second Part = Momentum App
+
+1. User Login

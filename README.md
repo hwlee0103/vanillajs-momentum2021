@@ -109,3 +109,7 @@ First Part - JSBasic
 Second Part = Momentum App
 
 1. User Login
+   - always validate input values.
+   - users can make mistakes.
+   - to trigger validation of input tag in HTML, input tag has to be inside of form tag
+   - and if using form tag, click will automatically submit values so js - click event not needed

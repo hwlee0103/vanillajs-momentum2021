@@ -113,3 +113,6 @@ Second Part = Momentum App
    - users can make mistakes.
    - to trigger validation of input tag in HTML, input tag has to be inside of form tag
    - and if using form tag, click will automatically submit values so js's added click event not needed
+   - can give 'submit' event to form element instead of giving click ; refreshing is default of form submit; browser will call function with some arguments
+   - first args of event func will be infos about what just happened
+   - preventDefault: stops default behavior of any event; like browser submits form with refreshing

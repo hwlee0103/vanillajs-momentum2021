@@ -116,3 +116,6 @@ Second Part = Momentum App
    - can give 'submit' event to form element instead of giving click ; refreshing is default of form submit; browser will call function with some arguments
    - first args of event func will be infos about what just happened
    - preventDefault: stops default behavior of any event; like preventing browser refreshing when submits form
+   - default act of link : move to link
+   - alert: blockes everything
+   - console.log(event): have many information includes mouse corrdinates

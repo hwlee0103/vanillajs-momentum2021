@@ -5,6 +5,7 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const loginButton = document.querySelector("#login-form button");
 
+const link = document.querySelector("a");
 //with submit, making click event is not needed
 function onLoginBtnClick() {
   //console.log(loginInput);
@@ -19,6 +20,15 @@ function onLoginBtnClick() {
   }
 }
 
+function handleLinkClick(event) {
+  event.preventDefault();
+  console.dir(event);
+  //alert("clicked!"); //blockes everything
+}
+
+loginForm.addEventListener("submit", onLoginSubmit);
+link.addEventListener("click", handleLinkClick);
+
 function onLoginSubmit(event) {
   //const username = loginInput.value;
   event.preventDefault();
@@ -27,4 +37,3 @@ function onLoginSubmit(event) {
 }
 
 //loginButton.addEventListener("click", onLoginBtnClick);
-loginForm.addEventListener("submit", onLoginSubmit);

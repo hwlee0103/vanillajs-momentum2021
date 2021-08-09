@@ -119,3 +119,4 @@ Second Part = Momentum App
    - default act of link : move to link
    - alert: blockes everything
    - console.log(event): have many information includes mouse corrdinates
+   - "Hello" + username == `Hello ${username}`

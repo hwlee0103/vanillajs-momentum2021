@@ -4,6 +4,9 @@
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const loginButton = document.querySelector("#login-form button");
+const greeting = document.querySelector("#greeting");
+
+const HIDDEN_CLASSNAME = "hidden";
 
 const link = document.querySelector("a");
 //with submit, making click event is not needed
@@ -33,7 +36,13 @@ function onLoginSubmit(event) {
   //const username = loginInput.value;
   event.preventDefault();
   //console.log(username);
-  console.log(event);
+  //console.log(event);
+  const username = loginInput.value;
+  loginForm.classList.add("hidden");
+  console.log(username);
+  //greeting.innerHTML = "Hello" + username;
+  greeting.innerHTML = `Hello ${username}`;
+  greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
 //loginButton.addEventListener("click", onLoginBtnClick);

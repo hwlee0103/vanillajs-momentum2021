@@ -120,3 +120,5 @@ Second Part = Momentum App
    - alert: blockes everything
    - console.log(event): have many information includes mouse corrdinates
    - "Hello" + username == `Hello ${username}`
+   - saving username value; using API - remember thing on local browser storage(localStorage like mini DB)
+     : localStorage.setItem(key, value) / removeItem, getItem

@@ -37,8 +37,9 @@ function onLoginSubmit(event) {
   event.preventDefault();
   //console.log(username);
   //console.log(event);
-  const username = loginInput.value;
   loginForm.classList.add("hidden");
+  const username = loginInput.value;
+  localStorage.setItem("username", username);
   console.log(username);
   //greeting.innerHTML = "Hello" + username;
   greeting.innerHTML = `Hello ${username}`;

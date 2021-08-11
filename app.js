@@ -7,6 +7,7 @@ const loginButton = document.querySelector("#login-form button");
 const greeting = document.querySelector("#greeting");
 
 const HIDDEN_CLASSNAME = "hidden";
+const USERNAME_KEY = "username";
 
 const link = document.querySelector("a");
 //with submit, making click event is not needed
@@ -29,7 +30,6 @@ function handleLinkClick(event) {
   //alert("clicked!"); //blockes everything
 }
 
-loginForm.addEventListener("submit", onLoginSubmit);
 link.addEventListener("click", handleLinkClick);
 
 function onLoginSubmit(event) {
@@ -39,11 +39,25 @@ function onLoginSubmit(event) {
   //console.log(event);
   loginForm.classList.add("hidden");
   const username = loginInput.value;
-  localStorage.setItem("username", username);
+  localStorage.setItem(USERNAME_KEY, username);
   console.log(username);
   //greeting.innerHTML = "Hello" + username;
-  greeting.innerHTML = `Hello ${username}`;
+  paintGreetings(username);
+}
+
+function paintGreetings(username) {
+  greeting.innerText = `Hello ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
 //loginButton.addEventListener("click", onLoginBtnClick);
+
+const savedUsername = localStorage.getItem("username");
+if (savedUsername === null) {
+  //show form
+  loginForm.classList.remove(HIDDEN_CLASSNAME);
+  loginForm.addEventListener("submit", onLoginSubmit);
+} else {
+  //show the greetings
+  paintGreetings(username);
+}

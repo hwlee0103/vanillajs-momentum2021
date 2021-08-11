@@ -122,3 +122,4 @@ Second Part = Momentum App
    - "Hello" + username == `Hello ${username}`
    - saving username value; using API - remember thing on local browser storage(localStorage like mini DB)
      : localStorage.setItem(key, value) / removeItem, getItem
+   - check local storage data

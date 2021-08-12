@@ -109,6 +109,7 @@ First Part - JSBasic
 Second Part = Momentum App
 
 1. User Login
+
    - always validate input values.
    - users can make mistakes.
    - to trigger validation of input tag in HTML, input tag has to be inside of form tag
@@ -123,3 +124,5 @@ Second Part = Momentum App
    - saving username value; using API - remember thing on local browser storage(localStorage like mini DB)
      : localStorage.setItem(key, value) / removeItem, getItem
    - check local storage data
+
+2. Clock

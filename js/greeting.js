@@ -38,11 +38,11 @@ function onLoginSubmit(event) {
   //console.log(username);
   //console.log(event);
   loginForm.classList.add("hidden");
-  const username = loginInput.value;
-  localStorage.setItem(USERNAME_KEY, username);
-  console.log(username);
+  const typedUsername = loginInput.value;
+  localStorage.setItem(USERNAME_KEY, typedUsername);
+  console.log(typedUsername);
   //greeting.innerHTML = "Hello" + username;
-  paintGreetings(username);
+  paintGreetings(typedUsername);
 }
 
 function paintGreetings(username) {

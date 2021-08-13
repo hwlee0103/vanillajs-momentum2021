@@ -126,3 +126,6 @@ Second Part = Momentum App
    - check local storage data
 
 2. Clock
+   - divide source (to divide and conqur, not put all source in one file)
+   - setInterval() : excecute function on each ms (certain amount of time); takes two arguments
+     ; setInterval(functionName, milliseconds)

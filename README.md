@@ -129,3 +129,6 @@ Second Part = Momentum App
    - divide source (to divide and conqur, not put all source in one file)
    - setInterval() : excecute function on each ms (certain amount of time); takes two arguments
      ; setInterval(functionName, milliseconds)
+   - setTimeout(functionName, time(ms)) : execute function after input time
+   - new Date() : get current date and time
+     ; getDate, getHours, getMinutes, getSecondes, ... etc.

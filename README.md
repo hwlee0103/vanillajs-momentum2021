@@ -132,3 +132,5 @@ Second Part = Momentum App
    - setTimeout(functionName, time(ms)) : execute function after input time
    - new Date() : get current date and time
      ; getDate, getHours, getMinutes, getSecondes, ... etc.
+   - padStart(length, addedstring) : make string length as long as input ; ex. "1" -> "01"
+     ; target should converted to string

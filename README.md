@@ -133,4 +133,4 @@ Second Part = Momentum App
    - new Date() : get current date and time
      ; getDate, getHours, getMinutes, getSecondes, ... etc.
    - padStart(length, addedstring) : make string length as long as input ; ex. "1" -> "01"
-     ; target should converted to string
+     ; target should converted to string, for only for string could padStart will work

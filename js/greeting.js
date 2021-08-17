@@ -7,9 +7,9 @@ const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
 const link = document.querySelector("a");
+const username = loginInput.value;
 
 function onLoginBtnClick() {
-  const username = loginInput.value;
   console.log(username);
   if (username === "") {
     alert("Please write your name");
@@ -23,7 +23,7 @@ function handleLinkClick(event) {
   console.dir(event);
 }
 
-link.addEventListener("click", handleLinkClick);
+//link.addEventListener("click", handleLinkClick);
 
 function onLoginSubmit(event) {
   event.preventDefault();
@@ -40,6 +40,7 @@ function paintGreetings(username) {
 }
 
 const savedUsername = localStorage.getItem("username");
+
 if (savedUsername === null) {
   loginForm.classList.remove(HIDDEN_CLASSNAME);
   loginForm.addEventListener("submit", onLoginSubmit);

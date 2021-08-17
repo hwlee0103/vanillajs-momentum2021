@@ -134,3 +134,10 @@ Second Part = Momentum App
      ; getDate, getHours, getMinutes, getSecondes, ... etc.
    - padStart(length, addedstring) : make string length as long as input ; ex. "1" -> "01"
      ; target should converted to string, for only for string could padStart will work
+3. Quotes and Background
+   - use object array for quotes
+   - momentum has random background, random quote
+     ; Math.random()\* 10 ; 0 ~ 10
+     ; Math.round() -> 반올림
+     ; Math.ceil() -> 올림
+     ; Math.floor() -> 내림

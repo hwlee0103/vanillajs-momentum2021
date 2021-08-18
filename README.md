@@ -141,3 +141,6 @@ Second Part = Momentum App
      ; Math.round() -> 반올림
      ; Math.ceil() -> 올림
      ; Math.floor() -> 내림
+   - Background Images; random
+   - getting random image from img folder, and add it to html; use document.createElement() to create html using javascript
+   - add created html element by using document.body.appendChild(item)

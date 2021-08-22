@@ -145,3 +145,6 @@ Second Part = Momentum App
    - getting random image from img folder, and add it to html; use document.createElement() to create html using javascript
    - add created html element by using document.body.appendChild(item)
      ; append: add at last, prepend: add at first
+4. ToDo List
+   - todo form
+   - todo list will be added by javascript

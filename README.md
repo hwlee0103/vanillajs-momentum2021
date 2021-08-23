@@ -148,3 +148,4 @@ Second Part = Momentum App
 4. ToDo List
    - todo form
    - todo list will be added by javascript
+   - add input Todos to html using javascript, createElement

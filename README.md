@@ -149,3 +149,4 @@ Second Part = Momentum App
    - todo form
    - todo list will be added by javascript
    - add input Todos to html using javascript, createElement
+   - add Delete To DO button using event.target. parentElement to know which button is clicked

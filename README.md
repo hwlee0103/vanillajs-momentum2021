@@ -150,3 +150,5 @@ Second Part = Momentum App
    - todo list will be added by javascript
    - add input Todos to html using javascript, createElement
    - add Delete To DO button using event.target. parentElement to know which button is clicked
+   - save user input todos ; use local Storage to save on browser
+     ; localStorage only save strings - save array as string - use browser function turn js object to string; JSON.stringify()

@@ -154,3 +154,4 @@ Second Part = Momentum App
      ; localStorage only save strings - save array as string - use browser function turn js object to string; JSON.stringify()
    - load todos from localStorage; using JSON.parse(localStorage.getItem()) ; javascript allows execute function for each item of array; using forEach
    - load todos from localStorage; restore old todos that saved beford
+   - delete to dos from localStorage ; update todos in localStorage

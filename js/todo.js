@@ -48,5 +48,5 @@ const savedToDos = localStorage.getItem(TODOS_KEY);
 if (savedToDos !== null) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos; //restore old input todos
-  parsedToDos.forEach(paintToDo);
+  parsedToDos.forEach(paintToDo); //paintToDo should return true if want to include item to new array(object)
 }

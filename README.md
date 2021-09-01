@@ -155,4 +155,4 @@ Second Part = Momentum App
    - load todos from localStorage; using JSON.parse(localStorage.getItem()) ; javascript allows execute function for each item of array; using forEach
    - load todos from localStorage; restore old todos that saved beford
    - delete to dos from localStorage ; update todos in localStorage
-   - arr.filter
+   - arr.filter to filter out array items (to exclude from array)

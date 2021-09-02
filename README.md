@@ -108,7 +108,7 @@ First Part - JSBasic
 
 Second Part = Momentum App
 
-1. User Login
+1. ## User Login
 
    - always validate input values.
    - users can make mistakes.
@@ -125,7 +125,8 @@ Second Part = Momentum App
      : localStorage.setItem(key, value) / removeItem, getItem
    - check local storage data
 
-2. Clock
+2. ## Clock
+
    - divide source (to divide and conqur, not put all source in one file)
    - setInterval() : excecute function on each ms (certain amount of time); takes two arguments
      ; setInterval(functionName, milliseconds)
@@ -134,7 +135,9 @@ Second Part = Momentum App
      ; getDate, getHours, getMinutes, getSecondes, ... etc.
    - padStart(length, addedstring) : make string length as long as input ; ex. "1" -> "01"
      ; target should converted to string, for only for string could padStart will work
-3. Quotes and Background
+
+3. ## Quotes and Background
+
    - use object array for quotes
    - momentum has random background, random quote
      ; Math.random()\* 10 ; 0 ~ 10
@@ -145,7 +148,9 @@ Second Part = Momentum App
    - getting random image from img folder, and add it to html; use document.createElement() to create html using javascript
    - add created html element by using document.body.appendChild(item)
      ; append: add at last, prepend: add at first
-4. ToDo List
+
+4. ## ToDo List
+
    - todo form
    - todo list will be added by javascript
    - add input Todos to html using javascript, createElement
@@ -156,3 +161,9 @@ Second Part = Momentum App
    - load todos from localStorage; restore old todos that saved beford
    - delete to dos from localStorage ; update todos in localStorage
    - arr.filter to filter out array items (to exclude from array)
+
+5. ## Weather
+
+   - navigator.geolocation.getCurrentPosition(successcallback, failcallback) ; to get current position
+   - use position.coords to get latitude and longitude
+   - use openweathermap API

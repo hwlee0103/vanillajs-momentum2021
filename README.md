@@ -166,4 +166,5 @@ Second Part = Momentum App
 
    - navigator.geolocation.getCurrentPosition(successcallback, failcallback) ; to get current position
    - use position.coords to get latitude and longitude
-   - use openweathermap API
+   - use openweathermap API; fetch informations with fetch(url) and use .then(response) to get server response
+   - for further js ; developing backend - recommend wetube lecture

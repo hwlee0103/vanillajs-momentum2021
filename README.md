@@ -168,3 +168,7 @@ Second Part = Momentum App
    - use position.coords to get latitude and longitude
    - use openweathermap API; fetch informations with fetch(url) and use .then(response) to get server response
    - for further js ; developing backend - recommend wetube lecture
+
+6. ## CSS
+
+   - add css to design

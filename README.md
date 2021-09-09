@@ -172,3 +172,8 @@ Second Part = Momentum App
 6. ## CSS
 
    - add css to design
+   - arrange items
+   - design input form
+   - add font color and font size
+   - design button
+   - design background of items

@@ -9,6 +9,7 @@ body {
   align-items: center;
   color: rgb(80, 80, 255);
   background-size: cover;
+  font-style: italic;
 }
 
 img {

@@ -177,3 +177,5 @@ Second Part = Momentum App
    - add font color and font size
    - design button
    - design background of items
+
+======================================================

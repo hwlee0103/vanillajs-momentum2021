@@ -9,11 +9,11 @@ body {
   align-items: center;
   color: rgb(80, 80, 255);
   background-size: cover;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 img {
-  opacity: 50%;
+  opacity: 60%;
   width: 100%;
   height: 100%;
 }
